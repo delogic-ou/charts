@@ -55,7 +55,7 @@ templates:
     mykey: {{ .Values.mysecret }}
 ```
 
-#### STEP 2: Install your templated resources.
+#### Step 2: Install your templated resources.
 
 ```
 helm install mysecret delogic/raw -f values.yaml
