@@ -1,6 +1,6 @@
-# dysnix/raw
+# delogic/raw
 
-The [dysnix/raw](https://github.com/dysnix/charts/tree/main/dysnix/raw) chart takes a list of Kubernetes resources and merges each resource with a default `metadata.labels` map and installs the result. Use this chart to generate arbitrary Kubernetes manifests instead of kubectl and scripts ;)
+The [delogic/raw](https://github.com/delogic-io/charts/tree/main/delogic/raw) chart takes a list of Kubernetes resources and merges each resource with a default `metadata.labels` map and installs the result. Use this chart to generate arbitrary Kubernetes manifests instead of kubectl and scripts.
 
 The Kubernetes resources can be "raw" ones defined under the `resources` key, or "templated" ones defined under the `templates` key.
 
@@ -35,7 +35,7 @@ resources:
 #### STEP 2: Install your raw resources.
 
 ```
-helm install raw-priority-classes dysnix/raw -f raw-priority-classes.yaml
+helm install raw-priority-classes delogic/raw -f raw-priority-classes.yaml
 ```
 
 ### Templated resources
@@ -58,5 +58,5 @@ templates:
 #### STEP 2: Install your templated resources.
 
 ```
-helm install mysecret dysnix/raw -f values.yaml
+helm install mysecret delogic/raw -f values.yaml
 ```
