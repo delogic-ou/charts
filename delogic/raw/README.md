@@ -8,7 +8,7 @@ The Kubernetes resources can be "raw" ones defined under the `resources` key, or
 
 ### Raw resources
 
-#### STEP 1: Create a yaml file containing your raw resources.
+#### Step 1: Create a yaml file containing your raw resources.
 
 Resources list can contain mixed types, i.e. include strings and maps simultaneously.
 
@@ -32,7 +32,7 @@ resources:
       description: "This priority class should only be used for critical priority common pods."
 ```
 
-#### STEP 2: Install your raw resources.
+#### Step 2: Install your raw resources.
 
 ```
 helm install raw-priority-classes delogic/raw -f raw-priority-classes.yaml
@@ -40,7 +40,7 @@ helm install raw-priority-classes delogic/raw -f raw-priority-classes.yaml
 
 ### Templated resources
 
-#### STEP 1: Create a yaml file containing your templated resources.
+#### Step 1: Create a yaml file containing your templated resources.
 
 ```
 # values.yaml
