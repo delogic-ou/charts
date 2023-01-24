@@ -3,9 +3,9 @@ name: raw
 version: v0.1.0
 kubeVersion: '>=1.16.0-0'
 description: "A place for all the Kubernetes resources which don't already have a home."
-home: https://github.com/delogic-io/charts/blob/main/delogic/raw
+home: https://github.com/delogic-io/charts/tree/main/delogic/raw
 sources:
-  - https://github.com/delogic-io/charts/blob/main/delogic/raw
+  - https://github.com/delogic-io/charts/tree/main/delogic/raw
 maintainers:
   - name: Delogic
     email: sre@delogic.io
