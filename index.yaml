@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  raw:
+  - annotations:
+      licenses: Apache-2.0
+    apiVersion: v2
+    created: "2023-01-24T20:20:00.291610733Z"
+    description: A place for all the Kubernetes resources which don't already have
+      a home.
+    digest: 0e091b0e910a642939ca788807e9c5a3ee2b06321b1482add1a7be94eebb8c41
+    home: https://github.com/delogic-io/charts/tree/main/delogic/raw
+    keywords:
+    - raw
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: sre@delogic.io
+      name: Delogic
+    name: raw
+    sources:
+    - https://github.com/delogic-io/charts/tree/main/delogic/raw
+    urls:
+    - https://github.com/delogic-io/charts/releases/download/raw-v0.1.0/raw-v0.1.0.tgz
+    version: v0.1.0
+generated: "2023-01-24T20:20:00.291615433Z"
