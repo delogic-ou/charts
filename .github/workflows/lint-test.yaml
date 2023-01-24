@@ -1,7 +1,6 @@
 name: Lint and Test Charts
 
 # on: pull_request
-
 on:
   push:
     branches:
@@ -20,6 +19,7 @@ jobs:
         uses: azure/setup-helm@v3
         with:
           version: v3.10.0
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v4
         with:
