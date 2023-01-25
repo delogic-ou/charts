@@ -1,13 +1,13 @@
 apiVersion: v2
 name: raw
 version: v0.1.0
-kubeVersion: '>=1.16.0-0'
+kubeVersion: '>=1.19.0'
 description: "A place for all the Kubernetes resources which don't already have a home."
 home: https://github.com/delogic-io/charts/tree/main/delogic/raw
 sources:
   - https://github.com/delogic-io/charts/tree/main/delogic/raw
 maintainers:
-  - name: Delogic
+  - name: Delogic Team
     email: sre@delogic.io
 keywords:
   - raw
