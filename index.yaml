@@ -14,7 +14,7 @@ entries:
     kubeVersion: ''>=1.19.0'
     maintainers:
     - email: sre@delogic.io
-      name: Delogic
+      name: Delogic Team
     name: raw
     sources:
     - https://github.com/delogic-io/charts/tree/main/delogic/raw
