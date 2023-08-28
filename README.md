@@ -1,5 +1,4 @@
 [![Release Pipeline](https://github.com/delogic-io/charts/actions/workflows/release.yaml/badge.svg)](https://github.com/delogic-io/charts/actions/workflows/release.yaml)
-# [![Lint and Test Pipeline](https://github.com/delogic-io/charts/actions/workflows/lint-test.yaml/badge.svg)](https://github.com/delogic-io/charts/actions/workflows/lint-test.yaml)
 
 # Delogic Helm chart Library for Kubernetes
 
