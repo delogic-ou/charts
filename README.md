@@ -7,7 +7,7 @@ Aapplications, provided by [Delogic](https://delogic.io), ready to launch on Kub
 ## TL;DR
 
 ```bash
-$ helm repo add delogic https://charts.delogic.io/delogic
+$ helm repo add delogic https://charts.delogic.io
 $ helm search repo delogic
 $ helm install my-release delogic/<chart>
 ```
