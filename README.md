@@ -29,7 +29,7 @@ To install Helm, refer to the [Helm install guide](https://github.com/helm/helm#
 The following command allows you to download and install all the charts from this repository:
 
 ```bash
-$ helm repo add delogic https://charts.delogic.io/delogic
+$ helm repo add delogic https://charts.delogic.io
 ```
 
 ### Using Helm
