@@ -22,6 +22,7 @@ resources:
     value: 100000000
     globalDefault: false
     description: "This priority class should only be used for critical priority common pods."
+templates:
   - |
       apiVersion: scheduling.k8s.io/v1beta1
       kind: PriorityClass
