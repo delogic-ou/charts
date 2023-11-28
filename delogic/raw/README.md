@@ -22,15 +22,16 @@ resources:
     value: 100000000
     globalDefault: false
     description: "This priority class should only be used for critical priority common pods."
+
 templates:
   - |
-      apiVersion: scheduling.k8s.io/v1beta1
-      kind: PriorityClass
-      metadata:
-        name: common-critical-from-string
-      value: 100000000
-      globalDefault: false
-      description: "This priority class should only be used for critical priority common pods."
+    apiVersion: scheduling.k8s.io/v1beta1
+    kind: PriorityClass
+    metadata:
+      name: common-critical-from-string
+    value: 100000000
+    globalDefault: false
+    description: "This priority class should only be used for critical priority common pods."
 ```
 
 #### Step 2: Install your raw resources.
