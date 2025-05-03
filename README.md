@@ -7,9 +7,9 @@ Aapplications, provided by [Delogic OU](https://delogic.io), ready to launch on 
 ## TL;DR
 
 ```bash
-$ helm repo add delogic https://charts.delogic.io
-$ helm search repo delogic
-$ helm install my-release delogic/<chart>
+$ helm repo add delogic-io https://charts.delogic.io
+$ helm search repo delogic-io
+$ helm install my-release delogic-io/<chart>
 ```
 
 ## Before you begin
